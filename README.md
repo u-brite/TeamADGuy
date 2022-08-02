@@ -17,15 +17,19 @@
 
 ## Background
 
-:exclamation: _Include background on the project, project description, and significance. This will be converted to your team's abstract by the end of the hackathon. This should be updated by Monday, August 1st to include feedback given._ :exclamation:
+Our goal is to capitalize on Graph Layer Relevance Propogation method which explores a Graph Convolutional Neural Network, to decode the pathological or node level difference between Alzheimer Disease subjects and control patients. 
 
 ## Data
 
-:exclamation: _Discuss the data you used and how it can be accessed._ :exclamation:
+As for the deep learning model and relevance propagation method, we will follow the GCN Paper that has applied this method in the cancer biology filed with slight changes such as:
+1. Expression Dataset from ROSMAP
+2. PPI network from HPRD, or test other suitable network
+3. Hyperparameter tuning
+
 
 ## Usage
 
-:exclamation: _How will someone not involved in your project be able to run the code or use it._ :exclamation:
+We are planning to build this whole pipeline into the docker image for easy installation and running. It would be as simple as providing the expression set file, PPI network file and hyperparameters in a config file or could also have an option of auto tuning using tools inside the container such as Optuna.
 
 ### Installation
 
@@ -43,7 +47,8 @@ git clone -b main \
 ```
 
 ### Requirements
-:exclamation: _Note any software used (including Python or R packages), operating system requirements, etc. and its version so that your project is reproducible. It does not have to be in the below format_ :exclamation:
+
+
 
 *OS:*
 
