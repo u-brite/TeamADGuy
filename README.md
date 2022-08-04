@@ -109,9 +109,9 @@ output_directory/
 
 ## Team Members
 
-Pradeep Varathan | ppugale@iu.edu | Team Leader  
-Wei-An Chen |  | Member
-Ghadah Alshaharani|  | Member
-Mehmet Enes Inam |  | Member
-Karen Bonilla|  | Member
-Zaid Soomro, MD|  | Mentor
+Pradeep Varathan | ppugale@iu.edu | Team Leader    
+Wei-An Chen |  | Member.  
+Ghadah Alshaharani|  | Member.  
+Mehmet Enes Inam |  | Member.  
+Karen Bonilla|  | Member    
+Zaid Soomro, MD|  | Mentor.   
