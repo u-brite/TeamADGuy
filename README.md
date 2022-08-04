@@ -109,5 +109,9 @@ output_directory/
 
 ## Team Members
 
-Tarun Mamidi | tmamidi@uab.edu | Team Leader  
-Shaurita Hutchins | shutchins@uab.edu | Co-leader
+Pradeep Varathan | ppugale@iu.edu | Team Leader  
+Wei-An Chen |  | Member
+Ghadah Alshaharani|  | Member
+Mehmet Enes Inam |  | Member
+Karen Bonilla|  | Member
+Zaid Soomro, MD|  | Mentor
