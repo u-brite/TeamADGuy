@@ -112,6 +112,6 @@ output_directory/
 Pradeep Varathan | ppugale@iu.edu | Team Leader    
 Wei-An Chen |  | Member.  
 Ghadah Alshaharani|  | Member.  
-Mehmet Enes Inam |  | Member.  
+Mehmet Enes Inam | mehmet.enes.inam@uth.tmc.edu | Member.  
 Karen Bonilla|  | Member    
 Zaid Soomro, MD|  | Mentor.   
