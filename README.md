@@ -113,5 +113,6 @@ Pradeep Varathan | ppugale@iu.edu | Team Leader
 Wei-An Chen |  | Member.  
 Ghadah Alshaharani|  | Member.  
 Mehmet Enes Inam | mehmet.enes.inam@gmail.com | Member.  
+Karolina Willicott | kwillicott@crimson.ua.edu | Member.
 Karen Bonilla|  | Member    
 Zaid Soomro, MD|  | Mentor.   
