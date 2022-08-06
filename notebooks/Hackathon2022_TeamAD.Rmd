@@ -1,0 +1,32 @@
+---
+title: "Hackathon 2022"
+author: "Team AD Guy"
+date: "8/6/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(GEOquery)
+library(limma)
+library(umap)
+library(Biobase)
+library(SummarizedExperiment) # need to load this first 
+
+```
+
+```{r}
+
+eset = getGEO('GSE106241')[[1]] 
+pData <- pData(eset) #large data frame 
+fData <- fData(eset) #large data frame 
+#se = as(eset, "SummarizedExperiment") 
+exp <- exprs(eset)
+write.csv(x = pData, file = "GSE106241_series_matrix_METAdata.csv", quote = F, row.names = T)
+write.csv(x = fData, file = "GSE106241_series_matrix_GENEInformation.csv", quote = F, row.names = T) 
+write.csv(x = exp, file = "GSE106241_series_matrix_EXPRESSIONdata.csv", quote = F, row.names = T) 
+
+
+```
+
+
