@@ -110,7 +110,7 @@ output_directory/
 ## Team Members
 
 Pradeep Varathan | ppugale@iu.edu | Team Leader    
-Wei-An Chen |  | Member.  
+Wei-An Chen | wchen678@gatech.edu | Member.  
 Ghadah Alshaharani|  | Member.  
 Mehmet Enes Inam | mehmet.enes.inam@gmail.com | Member.  
 Karolina Willicott | kwillicott@crimson.ua.edu | Member.
