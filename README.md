@@ -105,23 +105,22 @@ output_directory/
 
 
 ## Results
-:exclamation: _If your project yielded or intends to yield some novel analysis, please include them in your readme. It can be named something other than results as well._ :exclamation:
 
 #### ROSMAP 
 
-![ROSMAP Chart Results](/results/assets/ROSMAP_chart.png)
+![ROSMAP Chart Results](/results/assets/ROSMAP_chart.jpg)
 
 ![ROSMAP Histogram](/results/assets/ROSMAP_Results.png)
 
 #### GSE63063
 
-![GSE63063 Chart Results](/results/assets/GSE63063_chart.png)
+![GSE63063 Chart Results](/results/assets/GSE63063_chart.jpg)
 
 ![GSE63063 Histogram](/results/assets/GSE63063_results.png)
 
 #### miRNA
 
-![miRNA Chart Results](/results/assets/miRNA_chart.png)
+![miRNA Chart Results](/results/assets/miRNA_chart.jpg)
 
 ![miRNA Histogram](/results/assets/miRNA_results.png)
 
