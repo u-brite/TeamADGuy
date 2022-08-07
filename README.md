@@ -42,6 +42,10 @@ As for the deep learning model and relevance propagation method, we will follow 
 2. PPI network from HPRD, or test other suitable network
 3. Hyperparameter tuning
 
+*Dataset's Used:*    
+The ROSMAP data was obtained from ROSMAP project and preprocessed, uploaded in the data folder while the other datasets include 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150693 (MCI to AD converters and non converters, about 100 samples each) and 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63063 (AD, HC, MCI).
 
 ## Usage
 
@@ -67,10 +71,7 @@ git clone -b main \
 
 Works in all available OS.
 
-*Dataset's Used:*
-The ROSMAP data was obtained from ROSMAP project and preprocessed, uploaded in the data folder while the other datasets include 
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150693 (MCI to AD converters and non converters, about 100 samples each) and 
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63063 (AD, HC, MCI).
+
 
 *Tools:*
 
@@ -133,7 +134,34 @@ Running the model requires completion of the config file with self explained hea
 ```sh
 python src/DeepLearningModel.py 
 ```
+The config file has to have all the values and the default values to adjust the hyperparameters for the model are also provided.
+```sh
+input_files:
+    path_to_feature_val: "x_rosmap_whole_gene_expression_downsampled.csv"
+    path_to_feature_graph: "hprd_rosmap_whole_ppi.csv"
+    path_to_labels: "y_rosmap_whole_gene_expression_downsampled.csv"
 
+dl_params:
+  epochs: 200
+  batch_size: 100
+  test_ratio: 0.20
+  eval_freq: 40
+  filter: chebyshev5
+  brelu: b1relu
+  pool: mpool1
+  graph_cnn_filters: 16
+  polynomial_ord: 8
+  pooling_size: 2
+  regularization: 0.0001
+  dropout: 0.95
+  learning_rate: 0.00095
+  decay_rate: 0.9625
+  momentum: 0.99
+
+output_loc:
+  res_dir: "output_directory/"
+
+```
 Output from this step includes -
 
 ```directory
@@ -145,7 +173,7 @@ output_directory/
 
 #### Step 3
 
-To run the machine learning models, add both the X and Y datasets from the corresponding data folder in Github to the content folder in Google Colab. Run the respective code blocks within file. 
+To run the machine learning models, add both the X and Y datasets from the corresponding data folder in Github to the content folder in Google Colab. Run the respective code blocks within file. The ML models targetted here were lasso and RandomForest for all three datasets and the main features obtained were used for exploratory analysis.
 
 ## Results
 
