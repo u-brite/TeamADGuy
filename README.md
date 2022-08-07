@@ -19,6 +19,21 @@
 
 Our goal is to capitalize on Graph Layer Relevance Propogation method which explores a Graph Convolutional Neural Network, to decode the pathological or node level difference between Alzheimer Disease subjects and control patients. 
 
+## Introduction
+
+Alzheimer’s disease (AD) is the most common form of dementia (60-70%) mainly affecting the elderly (age >65) with an estimated annual cost of about $300 billion USD (“2020 Alzheimer’s Disease Facts and Figures,” 2020; Dementia, n.d.; Winston Wong, 2020).  
+There is no cure for AD, and in the past twenty years only two drugs (Aducanumab and Gantenerumab) have had a potential to show clinically meaningful results (Commissioner, 2021; Gantenerumab | ALZFORUM, n.d.; How Is Alzheimer’s Disease Treated?, n.d.; Ostrowitzki et al., 2017; Tolar et al., 2020).
+Exploration of additional biomarkers for this complex disease is, therefore, warranted and could potentially aid in the early detection or therapeutic intervention of AD patients.
+
+
+## Methods 
+
+We wish to develop a multiplex machine learning (ML) approach to identify [gene]omics biomarkers in AD and mild cognitive impairment (MCI) compared to healthy controls (HC). 
+1. Identify best ML model that predicts AD or MCI versus HC
+2. Apply this model on a validation set to confirm the performance
+3. Combine multiple datasets to see if model performance improves
+
+
 ## Data
 
 As for the deep learning model and relevance propagation method, we will follow the GCN Paper that has applied this method in the cancer biology filed with slight changes such as:
