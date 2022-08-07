@@ -7,12 +7,12 @@
     - [Data](#data)
     - [Usage](#usage)
         - [Installation](#installation)
-        - [Requirements](#requirements) _Can be named Dependencies as well_
-        - [Activate conda environment](#activate-conda-environment) _Optional_
-        - [Steps to run ](#steps-to-run) _Optional depending on project_
+        - [Requirements](#requirements) 
+        - [Activate conda environment](#activate-conda-environment) 
+        - [Steps to run ](#steps-to-run)
             - [Step-1](#step-1)
             - [Step-2](#step-2)
-    - [Results](#results) _Optional depending on project_
+    - [Results](#results) 
     - [Team Members](#team-members)
 
 ## Background
@@ -149,10 +149,8 @@ output_directory/
 
 ## Team Members
 
-Pradeep Varathan | ppugale@iu.edu | Team Leader    
-Wei-An Chen | wchen678@gatech.edu | Member.  
-Ghadah Alshaharani|  | Member.  
+Pradeep Varathan | ppugale@iu.edu | Team Leader  
 Mehmet Enes Inam | mehmet.enes.inam@gmail.com | Member.  
 Karolina Willicott | kwillicott@crimson.ua.edu | Member.  
-Karen Bonilla| kabonill@iu.edu | Member    
-Zaid Soomro, MD|  | Member.   
+Karen Bonilla| kabonill@iu.edu | Member.   
+
