@@ -107,6 +107,25 @@ output_directory/
 ## Results
 :exclamation: _If your project yielded or intends to yield some novel analysis, please include them in your readme. It can be named something other than results as well._ :exclamation:
 
+#### ROSMAP 
+
+![ROSMAP Chart Results](<img width="321" alt="image" src="https://user-images.githubusercontent.com/56688795/183272289-672e244b-0281-408e-abc1-a575c1fc7e8d.png">
+)
+
+![ROSMAP Histogram]()
+
+#### GSE63063
+
+![GSE63063 Chart Results]()
+
+![GSE63063 Histogram]()
+
+#### miRNA
+
+![miRNA Chart Results]()
+
+![miRNA Histogram]()
+
 ## Team Members
 
 Pradeep Varathan | ppugale@iu.edu | Team Leader    
