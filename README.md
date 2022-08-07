@@ -108,21 +108,33 @@ output_directory/
 
 #### ROSMAP 
 
+<p align = "center"> 
+
 ![ROSMAP Chart Results](/results/assets/ROSMAP_chart.jpg)
 
 ![ROSMAP Histogram](/results/assets/ROSMAP_Results.png)
 
+</p>
+
 #### GSE63063
+
+<p align = "center"> 
 
 ![GSE63063 Chart Results](/results/assets/GSE63063_chart.jpg)
 
 ![GSE63063 Histogram](/results/assets/GSE63063_results.png)
 
+</p>
+
 #### miRNA
+
+<p align = "center"> 
 
 ![miRNA Chart Results](/results/assets/miRNA_chart.jpg)
 
 ![miRNA Histogram](/results/assets/miRNA_results.png)
+
+</p>
 
 ## Team Members
 
