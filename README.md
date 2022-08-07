@@ -42,6 +42,10 @@ As for the deep learning model and relevance propagation method, we will follow 
 2. PPI network from HPRD, or test other suitable network
 3. Hyperparameter tuning
 
+*Dataset's Used:*    
+The ROSMAP data was obtained from ROSMAP project and preprocessed, uploaded in the data folder while the other datasets include 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150693 (MCI to AD converters and non converters, about 100 samples each) and 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63063 (AD, HC, MCI).
 
 ## Usage
 
@@ -67,10 +71,7 @@ git clone -b main \
 
 Works in all available OS.
 
-*Dataset's Used:*
-The ROSMAP data was obtained from ROSMAP project and preprocessed, uploaded in the data folder while the other datasets include 
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150693 (MCI to AD converters and non converters, about 100 samples each) and 
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63063 (AD, HC, MCI).
+
 
 *Tools:*
 
