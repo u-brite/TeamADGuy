@@ -67,10 +67,43 @@ git clone -b main \
 
 Works in all available OS.
 
+*Dataset's Used:*
+The ROSMAP data was obtained from ROSMAP project and preprocessed, uploaded in the data folder while the other datasets include 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150693 (MCI to AD converters and non converters, about 100 samples each) and 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63063 (AD, HC, MCI).
+
 *Tools:*
 
 - Anaconda3
     - Tested with version: 2020.02
+
+- Docker
+    - Another alternative is to use the docker file
+    ```sh
+    docker build -t gnc src/Docker/
+    #See running containers
+    docker container ls
+
+    # See all containers
+    docker ps -a
+
+    # Stop the container
+    docker stop <container name>
+    #eg.
+    docker stop gnc
+
+    # Start the container
+    docker start <container name>
+    #eg,
+    docker start gnc
+
+    # What if I want an interactive terminal session inside the container?
+    docker exec -it <container name> /bin/bash
+    cd ~
+    #eg.
+    docker exec -it metanets /bin/bash
+    cd /root/
+    ```
 
 ### Activate conda environment
 
