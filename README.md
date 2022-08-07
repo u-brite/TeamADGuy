@@ -2,18 +2,17 @@
 
 ## Table of Contents
 
-- [Template](#team-repo-template)
-    - [Background](#Background)
-    - [Data](#data)
-    - [Usage](#usage)
-        - [Installation](#installation)
-        - [Requirements](#requirements) 
-        - [Activate conda environment](#activate-conda-environment) 
-        - [Steps to run ](#steps-to-run)
-            - [Step-1](#step-1)
-            - [Step-2](#step-2)
-    - [Results](#results) 
-    - [Team Members](#team-members)
+- [Background](#Background)
+- [Data](#data)
+- [Usage](#usage)
+    - [Installation](#installation)
+    - [Requirements](#requirements) 
+    - [Activate conda environment](#activate-conda-environment) 
+    - [Steps to run ](#steps-to-run)
+        - [Step-1](#step-1)
+        - [Step-2](#step-2)
+- [Results](#results) 
+- [Team Members](#team-members)
 
 ## Background
 
