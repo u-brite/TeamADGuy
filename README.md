@@ -21,7 +21,7 @@ Our goal is to capitalize on Graph Layer Relevance Propogation method which expl
 
 ## Introduction
 
-Alzheimer’s disease (AD) is the most common form of dementia (60-70%) mainly affecting the elderly (age >65) with an estimated annual cost of about $300 billion USD (“2020 Alzheimer’s Disease Facts and Figures,” 2020; Dementia, n.d.; Winston Wong, 2020).  
+Alzheimer’s disease (AD) is the most common form of dementia (60-70%) mainly affecting the elderly (age >65) with an estimated annual cost of about $300 billion USD (“2020 Alzheimer’s Disease Facts and Figures,” 2020; Dementia, n.d.; Winston Wong, 2020).  return  
 There is no cure for AD, and in the past twenty years only two drugs (Aducanumab and Gantenerumab) have had a potential to show clinically meaningful results (Commissioner, 2021; Gantenerumab | ALZFORUM, n.d.; How Is Alzheimer’s Disease Treated?, n.d.; Ostrowitzki et al., 2017; Tolar et al., 2020).
 Exploration of additional biomarkers for this complex disease is, therefore, warranted and could potentially aid in the early detection or therapeutic intervention of AD patients.
 
