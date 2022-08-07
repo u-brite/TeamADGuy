@@ -1,7 +1,7 @@
 input_files:
-    path_to_feature_val: "/home/ppugale/rosmap_whole_data/x_rosmap_whole_gene_expression_downsampled.csv"
-    path_to_feature_graph: "/home/ppugale/rosmap_whole_data/hprd_rosmap_whole_ppi.csv"
-    path_to_labels: "/home/ppugale/rosmap_whole_data/y_rosmap_whole_gene_expression_downsampled.csv"
+    path_to_feature_val: "x_rosmap_whole_gene_expression_downsampled.csv"
+    path_to_feature_graph: "hprd_rosmap_whole_ppi.csv"
+    path_to_labels: "y_rosmap_whole_gene_expression_downsampled.csv"
 
 dl_params:
   epochs: 200
@@ -21,7 +21,7 @@ dl_params:
   momentum: 0.99
 
 output_loc:
-  res_dir: "/home/ppugale/GLRP_Results/Best_Accuracy_Result/"
+  res_dir: "output_directory/"
 
 
 
