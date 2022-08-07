@@ -8,8 +8,6 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(GEOquery)
-library(limma)
-library(umap)
 library(Biobase)
 library(SummarizedExperiment) # need to load this first 
 
