@@ -11,6 +11,7 @@
     - [Steps to run ](#steps-to-run)
         - [Step-1](#step-1)
         - [Step-2](#step-2)
+        - [Step-3](#step-3)
 - [Results](#results) 
 - [Team Members](#team-members)
 
@@ -109,7 +110,9 @@ output_directory/
 
 ```
 
+#### Step 3
 
+To run the machine learning models, add both the X and Y datasets from the corresponding data folder in Github to the content folder in Google Colab. Run the respective code blocks within file. 
 
 ## Results
 
