@@ -131,7 +131,7 @@ The rough test files are present inside the Test folder for reference.
 Running the model requires completion of the config file with self explained headers present inside. Finally, the input of the python file would just be the config file itself.
 
 ```sh
-python src/model.py -i path/to/parsed_file.tsv -O path/to/output_directory
+python src/DeepLearningModel.py 
 ```
 
 Output from this step includes -
@@ -139,7 +139,7 @@ Output from this step includes -
 ```directory
 output_directory/
 ├── prediction.csv              
-└── columns.csv - columns before and after filtering step
+└── Relevences.csv - has the weights and relevances for each of the gene for each subject
 
 ```
 
