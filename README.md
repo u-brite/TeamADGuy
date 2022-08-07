@@ -109,22 +109,21 @@ output_directory/
 
 #### ROSMAP 
 
-![ROSMAP Chart Results](<img width="321" alt="image" src="https://user-images.githubusercontent.com/56688795/183272289-672e244b-0281-408e-abc1-a575c1fc7e8d.png">
-)
+![ROSMAP Chart Results](/assets/ROSMAP_chart.png)
 
-![ROSMAP Histogram]()
+![ROSMAP Histogram](/assets/ROSMAP_results.png)
 
 #### GSE63063
 
-![GSE63063 Chart Results]()
+![GSE63063 Chart Results](/assets/GSE63063_chart.png)
 
-![GSE63063 Histogram]()
+![GSE63063 Histogram](/assets/GSE63063_results.png)
 
 #### miRNA
 
-![miRNA Chart Results]()
+![miRNA Chart Results](/assets/miRNA_chart.png)
 
-![miRNA Histogram]()
+![miRNA Histogram](/assets/miRNA_results.png)
 
 ## Team Members
 
