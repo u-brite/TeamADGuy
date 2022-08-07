@@ -109,21 +109,21 @@ output_directory/
 
 #### ROSMAP 
 
-![ROSMAP Chart Results](/assets/ROSMAP_chart.png)
+![ROSMAP Chart Results](/results/assets/ROSMAP_chart.png)
 
-![ROSMAP Histogram](/assets/ROSMAP_results.png)
+![ROSMAP Histogram](/results/assets/ROSMAP_Results.png)
 
 #### GSE63063
 
-![GSE63063 Chart Results](/assets/GSE63063_chart.png)
+![GSE63063 Chart Results](/results/assets/GSE63063_chart.png)
 
-![GSE63063 Histogram](/assets/GSE63063_results.png)
+![GSE63063 Histogram](/results/assets/GSE63063_results.png)
 
 #### miRNA
 
-![miRNA Chart Results](/assets/miRNA_chart.png)
+![miRNA Chart Results](/results/assets/miRNA_chart.png)
 
-![miRNA Histogram](/assets/miRNA_results.png)
+![miRNA Histogram](/results/assets/miRNA_results.png)
 
 ## Team Members
 
