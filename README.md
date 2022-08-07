@@ -88,15 +88,14 @@ conda activate gcn
 ```
 
 ### Steps to run
-:exclamation: _Optional: Depends on project._ :exclamation:
 
 #### Step 1
+To run the deep learning model, the first step would include downloading your required file with expression dataset having subjects as columns and genes as rows while also a column under the name 'Probe' with the gene names for reference in the future. The final output data,which is the subject disease condition is also required for the prediction and finally, we would require the network, for which we used the HPRD PPI and you can freely use the PPI network that suits best.
 
-```sh
-python src/data_prep.py -i path/to/file.tsv -O path/to/output_directory
-```
+The rough test files are present inside the Test folder for reference.
 
 #### Step 2
+Running the model requires completion of the config file with self explained headers present inside. Finally, the input of the python file would just be the config file itself.
 
 ```sh
 python src/model.py -i path/to/parsed_file.tsv -O path/to/output_directory
@@ -106,13 +105,11 @@ Output from this step includes -
 
 ```directory
 output_directory/
-├── parsed_file.tsv               <--- used for model
-├── plot.pdf- Plot to visualize data
+├── prediction.csv              
 └── columns.csv - columns before and after filtering step
 
 ```
 
-**Note**: The is an example note with a [link](https://github.com/u-brite/team-repo-template).
 
 
 ## Results
@@ -149,8 +146,8 @@ output_directory/
 
 ## Team Members
 
-Pradeep Varathan | ppugale@iu.edu | Team Leader  
+Pradeep Varathan | ppugale@iu.edu | Team Leader.  
+Karen Bonilla| kabonill@iu.edu | Member.   
 Mehmet Enes Inam | mehmet.enes.inam@gmail.com | Member.  
 Karolina Willicott | kwillicott@crimson.ua.edu | Member.  
-Karen Bonilla| kabonill@iu.edu | Member.   
 
