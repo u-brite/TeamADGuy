@@ -1,0 +1,28 @@
+input_files:
+    path_to_feature_val: "/home/ppugale/rosmap_whole_data/x_rosmap_whole_gene_expression_downsampled.csv"
+    path_to_feature_graph: "/home/ppugale/rosmap_whole_data/hprd_rosmap_whole_ppi.csv"
+    path_to_labels: "/home/ppugale/rosmap_whole_data/y_rosmap_whole_gene_expression_downsampled.csv"
+
+dl_params:
+  epochs: 200
+  batch_size: 100
+  test_ratio: 0.20
+  eval_freq: 40
+  filter: chebyshev5
+  brelu: b1relu
+  pool: mpool1
+  graph_cnn_filters: 16
+  polynomial_ord: 8
+  pooling_size: 2
+  regularization: 0.0001
+  dropout: 0.95
+  learning_rate: 0.00095
+  decay_rate: 0.9625
+  momentum: 0.99
+
+output_loc:
+  res_dir: "/home/ppugale/GLRP_Results/Best_Accuracy_Result/"
+
+
+
+
