@@ -45,11 +45,9 @@ As for the deep learning model and relevance propagation method, we will follow 
 
 ## Usage
 
-We are planning to build this whole pipeline into the docker image for easy installation and running. It would be as simple as providing the expression set file, PPI network file and hyperparameters in a config file or could also have an option of auto tuning using tools inside the container such as Optuna.
+We are planning to build this whole pipeline into python file with config for easy installation and running. It would be as simple as providing the expression set file, PPI network file and hyperparameters in a config file.
 
 ### Installation
-
-:exclamation: _If installation is required, please mention how to do so here._ :exclamation:
 
 Installation simply requires fetching the source code. Following are required:
 
@@ -59,17 +57,15 @@ To fetch source code, change in to directory of your choice and run:
 
 ```sh
 git clone -b main \
-    git@github.com:u-brite/team-repo-template.git
+    https://github.com/u-brite/TeamADGuy
 ```
 
 ### Requirements
 
 
-
 *OS:*
 
-Currently works only in Linux OS. Docker versions may need to be explored later to make it useable in Mac (and
-potentially Windows).
+Works in all available OS.
 
 *Tools:*
 
@@ -77,19 +73,18 @@ potentially Windows).
     - Tested with version: 2020.02
 
 ### Activate conda environment
-:exclamation: _Optional: Depends on project._ :exclamation:
 
-Change in to root directory and run the commands below:
+Change in to root directory and run the commands below to run the deep learning model:
 
 ```sh
 # create conda environment. Needed only the first time.
-conda env create --file configs/environment.yaml
+conda env create --file configs/environment.yml
 
 # if you need to update existing environment
-conda env update --file configs/environment.yaml
+conda env update --file configs/environment.yml
 
 # activate conda environment
-conda activate testing
+conda activate gcn
 ```
 
 ### Steps to run
