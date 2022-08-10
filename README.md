@@ -91,12 +91,12 @@ Works in all available OS.
     # Stop the container
     docker stop <container name>
     #eg.
-    docker stop gnc
+    docker stop gnn
 
     # Start the container
     docker start <container name>
     #eg,
-    docker start gnc
+    docker start gnn
 
     # What if I want an interactive terminal session inside the container?
     docker exec -it <container name> /bin/bash
